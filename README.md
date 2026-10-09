@@ -87,15 +87,15 @@ Open `http://localhost:8080` to access the container locally.
 
 ### Jenkins Pipeline
 
-![Jenkins Pipeline Build](screenshots/jenkins-build.png)
+![Jenkins Pipeline Build](jenkins-build.png)
 
 ### GitHub Container Registry (GHCR)
 
-![GHCR Package](screenshots/ghcr-photo6.png)
+![GHCR Package](ghcr-photo6.png)
 
 ### Application Output
 
-![Application Output](screenshots/project-photo7.png)
+![Application Output](project-photo7.png)
 
 ## Security Considerations
 
