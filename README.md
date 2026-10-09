@@ -102,8 +102,9 @@ Open `http://localhost:8080` to access the container locally.
 - Store GitHub tokens and other secrets in Jenkins Credentials.
 - Never commit AWS access keys, GitHub tokens, passwords, or `.env` files.
 - Do not commit Terraform state files or sensitive variable files.
-- Restrict SSH access to trusted IP addresses.
-- Allow only the required application ports in AWS security groups.
+- Configured AWS security groups to allow SSH and application traffic through the required ports.
+- Allowed public access to the application port for web access.
+- SSH access was initially configured to allow connections from any IPv4 address (0.0.0.0/0); restricting it to trusted IP addresses is a recommended security improvement.
 
 ## Key Learnings
 
